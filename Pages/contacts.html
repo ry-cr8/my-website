@@ -25,6 +25,67 @@
       <a href="https://github.com/ry-cr8" target="_blank">GitHub</a>
     </section>
 
+    <section>
+      <h2>Send Me a Message</h2>
+      <form target="_blank">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="username"
+          placeholder="Name"
+          required
+          style="margin-bottom: 5px"
+        /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          required
+          id="message"
+          placeholder="Message"
+          name="user_messages"
+          style="height: 100px; resize: none"
+        ></textarea
+        ><br />
+
+        <label>
+          <input type="radio" name="reason" value="Question" />
+          Question
+        </label>
+        <br />
+
+        <label>
+          <input type="radio" name="reason" value="Job offer" />
+          Job Offer
+        </label>
+        <br />
+
+        <label>
+          <input type="radio" name="reason" value="Collaboration" />
+          Collaboration
+        </label>
+        <br />
+
+        <label>
+          <input type="checkbox" name="subscribe" value="yes" />Subscribe for
+          more updates!
+        </label>
+        <br />
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
     <footer>
       <p>My name</p>
       <p>2nd year BSIT</p>
