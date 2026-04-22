@@ -76,3 +76,44 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
+
+#abtm {
+  padding: 20px;
+}
+
+.abtm {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+#abth1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.abtsec {
+  background-color: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #38bdf8;
+  margin-bottom: 20px;
+}
+
+#abtp {
+  background-color: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #38bdf8;
+  margin-bottom: 20px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.abth2 {
+  margin-bottom: 10px;
+  color: #e2e8f0;
+}
