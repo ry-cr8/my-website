@@ -27,10 +27,6 @@ nav a:hover {
   color: #0f172a;
 }
 
-main {
-  padding: 20px;
-}
-
 h1 {
   font-size: 36px;
   margin-bottom: 15px;
@@ -50,10 +46,6 @@ p {
   padding: 15px;
   margin-top: 15px;
   border-left: 4px solid #38bdf8;
-}
-
-a {
-  transition: 1s;
 }
 
 main a {
@@ -77,43 +69,48 @@ footer {
   margin-top: 30px;
 }
 
-#abtm {
-  padding: 20px;
-}
-
-.abtm {
+.about-main,
+.home-main {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
 
-#abth1 {
+.abt-title {
   text-align: center;
   margin-top: 50px;
   font-size: 36px;
 }
 
-.abtsec {
+.about-section {
   background-color: #1e293b;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   border-left: 4px solid #38bdf8;
-  margin-bottom: 20px;
 }
 
-#abtp {
+.card {
   background-color: #1e293b;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   border-left: 4px solid #38bdf8;
-  margin-bottom: 20px;
   color: #94a3b8;
   line-height: 1.6;
 }
 
-.abth2 {
+.about-h2 {
   margin-bottom: 10px;
   color: #e2e8f0;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #38bdf8;
 }
